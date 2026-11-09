@@ -1,0 +1,57 @@
+# Windows Explorer and filesystem metadata
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+*.lnk
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs created by scripts
+*.log
+*.log.*
+**/Logs/
+**/logs/
+
+# Reports created by the supplied tools
+Full_System_Audit_Report.txt
+Enterprise_Repair_Report.txt
+Office_Repair_Report.txt
+Client_System_Report_*.txt
+Client_System_Report_*.csv
+Client_System_Report_*.pdf
+
+# Diagnostic exports and crash dumps
+*.dmp
+*.mdmp
+*.etl
+*.evtx
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*~
+~$*
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.p12
+*.key
+
+# IDE and local workspace files
+.idea/
+.vs/
